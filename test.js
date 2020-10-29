@@ -1,4 +1,7 @@
 const alert = require('./index');
+const checkNodeVersion = require('./checkNodeVersion');
+
+checkNodeVersion('13')
 
 alert({
     type: `success`,
